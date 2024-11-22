@@ -15,15 +15,15 @@ header {
     justify-content: center;
     align-items: center;
 }
+.border{
+    border: dotted black;
+}
 
 header .container {
     background-color: yellow;
-    border: dotted black;
     height: 20px;
     width: 70%;
     justify-content: space-between;
-
-    
 } 
 
 .sides {
@@ -37,7 +37,6 @@ header .container {
     border-right: dotted black;
     width: 80%;
 }
-
 
 .login {
     display: flex;
@@ -81,20 +80,26 @@ header .container {
     width: auto;
 }
 
+.grigio .immagine{
+    border-left:dotted black ;
+}
 
-
+.bianco .immagine{
+    border-right:dotted black ;
+}
 .immagine{
     background-color: blue;
     width: 60%;
     height: 100%;
 }
 
+
+
 .testo{
     background-color: pink;
     width: 40%;
     height: 100%
 }
-
 
 .verde {
     height: ;
@@ -104,3 +109,10 @@ header .container {
 .end-main{
     height: 700px;
 }
+
+/* regole footer */
+footer{
+    background-color: #23272A;
+    height: 600px;
+}
+
