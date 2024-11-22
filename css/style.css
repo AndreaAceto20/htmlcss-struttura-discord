@@ -3,3 +3,29 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* regole header */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    height: 100px;
+}
+
+.conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: yellow;
+    border: dotted black;
+    height: 40px;
+    width: 500px;
+
+}
+
+#sides {
+    width: 30%;
+    border: dotted black;
+}
+
