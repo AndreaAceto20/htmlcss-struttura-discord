@@ -57,21 +57,28 @@ header .container {
 
 /* main */
 .main-container {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .testo-foto{
+    width: 60%;
  }
 
-.container .content{
+.content{
     height: 90%;
     width: 60%;
 }
 
-.container .bianco{
+.bianco{
     background-color: #fff;
     height: 400px;
     width: auto;
 }
 
-.container .grigio {
+.grigio {
     background-color: grey;
     height: 400px;
     width: auto;
@@ -82,9 +89,11 @@ header .container {
 .immagine{
     background-color: blue;
     width: 60%;
+    height: 100px;
 }
 
 .testo{
     background-color: pink;
     width: 40%;
+    height: 100px;
 }
