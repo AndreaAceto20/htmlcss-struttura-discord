@@ -9,12 +9,13 @@ header {
     background-color: lightblue;
     height: 40px;
 }
-
+/* regole generali container */
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+/* bordo generale */
 .border{
     border: dotted black;
 }
@@ -42,7 +43,7 @@ header .container {
     display: flex;
     justify-content: flex-end;
 }
-
+/* regole hero */
 .hero {
     background-color: blue;
     height: 400px;
@@ -123,6 +124,7 @@ footer{
     align-items: stretch;
     height: 360px;
 }
+
 .salmone{
     background-color: #F08180;
 }
