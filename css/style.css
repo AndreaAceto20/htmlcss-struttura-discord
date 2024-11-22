@@ -51,11 +51,11 @@ header .container {
 #text {
     background-color: blueviolet;
     height: 90%;
-    width: 60%;
+    width: 50%;
 }
 
 /* main */
-.main-container {  
+.column-container {  
     flex-direction: column;
  }
 
@@ -65,7 +65,7 @@ header .container {
 
 .content{
     height: 90%;
-    width: 60%;
+    width: 70%;
 }
 
 .bianco{
@@ -87,13 +87,12 @@ header .container {
 .bianco .immagine{
     border-right:dotted black ;
 }
+
 .immagine{
     background-color: blue;
     width: 60%;
     height: 100%;
 }
-
-
 
 .testo{
     background-color: pink;
@@ -111,8 +110,38 @@ header .container {
 }
 
 /* regole footer */
-footer{
+footer{     
     background-color: #23272A;
-    height: 600px;
+    height: 10%;
 }
 
+.top-footer{
+    height: 400px;
+}
+
+.strech{
+    align-items: stretch;
+    height: 360px;
+}
+.salmone{
+    background-color: #F08180;
+}
+
+.ciano{
+    background-color: #20B3AA;
+}
+
+.divisore{
+    border-bottom: solid white;
+    margin: 30px 0;
+}
+
+.bottom{
+    justify-content: space-between;
+    background-color: #7FFFD4;
+    height: 40px;
+}
+
+.edges{
+    background-color: #FFB5C3;
+}
