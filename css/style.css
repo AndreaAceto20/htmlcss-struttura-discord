@@ -6,26 +6,85 @@
 
 /* regole header */
 header {
+    background-color: lightblue;
+    height: 40px;
+}
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightblue;
-    height: 100px;
 }
 
-.conteiner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+header .container {
     background-color: yellow;
     border: dotted black;
-    height: 40px;
-    width: 500px;
+    height: 20px;
+    width: 70%;
+    justify-content: space-between;
 
+    
+} 
+
+.sides {
+    width: 20%;
 }
 
-#sides {
-    width: 30%;
-    border: dotted black;
+.links{
+    display: flex;
+    justify-content: center;
+    border-left: dotted black;
+    border-right: dotted black;
+    width: 80%;
 }
 
+
+.login {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero {
+    background-color: blue;
+    height: 400px;
+}
+
+#text {
+    background-color: blueviolet;
+    height: 90%;
+    width: 60%;
+}
+
+/* main */
+.main-container {
+    flex-direction: column;
+ }
+
+.container .content{
+    height: 90%;
+    width: 60%;
+}
+
+.container .bianco{
+    background-color: #fff;
+    height: 400px;
+    width: auto;
+}
+
+.container .grigio {
+    background-color: grey;
+    height: 400px;
+    width: auto;
+}
+
+
+
+.immagine{
+    background-color: blue;
+    width: 60%;
+}
+
+.testo{
+    background-color: pink;
+    width: 40%;
+}
